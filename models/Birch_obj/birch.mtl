@@ -1,0 +1,50 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl wire_002124206
+Ns 32.000008
+Ka 1.000000 1.000000 1.000000
+Kd 0.007843 0.486275 0.807843
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Bark_v1.jpg
+map_Ns D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Bark_v1_bump.jpg
+
+newmtl wire_130085043
+Ns 32.000008
+Ka 1.000000 1.000000 1.000000
+Kd 0.509804 0.333333 0.168627
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Leaf.jpg
+map_d D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Leaf_Alpha.jpg
+
+newmtl wire_199110158
+Ns 32.000008
+Ka 1.000000 1.000000 1.000000
+Kd 0.780392 0.431373 0.619608
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Bark_v4.jpg
+map_Ns D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Bark_v4_bump.jpg
+
+newmtl wire_220034076
+Ns 32.000008
+Ka 1.000000 1.000000 1.000000
+Kd 0.862745 0.133333 0.298039
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Bark_v5.jpg
+map_Ns D:\\temp_downloads\\VizPeople_Free_3d_Models_Birch_Trees\\VP_Free_Birch_Bark_v5_bump.jpg

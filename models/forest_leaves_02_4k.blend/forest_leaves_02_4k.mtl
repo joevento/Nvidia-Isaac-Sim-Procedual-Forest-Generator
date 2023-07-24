@@ -1,0 +1,15 @@
+# Blender MTL File: 'forest_leaves_02_4k.blend'
+# Material Count: 1
+
+newmtl forest_leaves_02
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump textures\\forest_leaves_02_nor_gl_4k.exr
+map_Kd textures\\forest_leaves_02_diffuse_4k.jpg
+map_Ns textures\\forest_leaves_02_rough_4k.jpg

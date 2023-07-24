@@ -1,0 +1,16 @@
+texture0="abstract::birch_leaf_autmn-diff.dds"
+clamp0=0,0,0
+texture1="abstract::birch_leaf_autmn-norm.dds"
+clamp1=0,0,0
+blend=0
+depthmask=1
+depthtest=1
+overlay=0
+zsort=0
+cullface=0
+castshadows=1
+specular=1
+bumpscale=2
+gloss=0.800000000
+shader="abstract::mesh_diffuse_bumpmap_sway.vert","abstract::mesh_diffuse_bumpmap_specular_alphatest.frag"
+shadowshader="abstract::mesh_shadow_sway.vert","abstract::mesh_shadow.frag"

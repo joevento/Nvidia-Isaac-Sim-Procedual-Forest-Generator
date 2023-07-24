@@ -1,0 +1,16 @@
+texture0="abstract::kahlerast-diffuse.dds"
+clamp0=0,0,0
+//texture1="abstract::beech_leaf_ddn.dds"
+//clamp1=0,0,0
+blend=0
+depthmask=1
+depthtest=1
+overlay=0
+zsort=0
+cullface=0
+castshadows=1
+specular=0.500000000
+bumpscale=0.500000000
+gloss=0.500000000
+shader="abstract::mesh_diffuse_bumpmap.vert","abstract::mesh_diffuse_bumpmap_specular_alphatest.frag"
+shadowshader="abstract::mesh_shadow.vert","abstract::mesh_shadow.frag"

@@ -1,0 +1,24 @@
+# Blender MTL File: 'Spruce.blend'
+# Material Count: 3
+newmtl SpruceBranch
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd Spruce branches.png
+map_d Spruce branches.png
+
+
+newmtl SpruceTrunk
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Spruce trunk.jpeg
+
