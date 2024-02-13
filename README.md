@@ -1,6 +1,6 @@
 # Terrain Generation and Forest Rendering Extension
 
-This project implements an extension for NVIDIA Isaac Sim for generating terrain and rendering forests within the simulation environment. It utilizes USD (Universal Scene Description) for scene representation and manipulation, allowing for efficient handling of large-scale environments.
+This project implements an extension for NVIDIA Isaac Sim for generating terrain and rendering forests within the simulation environment. It utilizes USD (Universal Scene Description) for scene representation and manipulation, allowing for efficient handling of large-scale environments. The extension was first made for virtual robot testing based on parametrized data taken from real world forests.
 
 ## Features
 
@@ -34,8 +34,9 @@ This project implements an extension for NVIDIA Isaac Sim for generating terrain
 
 ## Credits
 
-This project was developed by [Your Name] as part of [Project Name]. Special thanks to [Contributor Name] for their contributions.
+This project was developed by Joel Ventola as part of research into virtual mobile robot testing conducted by Biomimetics and Intelligent Systems Group
+from the University of Oulu.
 
 ## License
 
-This project is licensed under the [License Name] License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
