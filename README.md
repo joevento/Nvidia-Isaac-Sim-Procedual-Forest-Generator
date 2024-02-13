@@ -1,52 +1,41 @@
-# Extension Project Template
+# Terrain Generation and Forest Rendering Extension
 
-This project was automatically generated.
+This project implements an extension for NVIDIA Isaac Sim for generating terrain and rendering forests within the simulation environment. It utilizes USD (Universal Scene Description) for scene representation and manipulation, allowing for efficient handling of large-scale environments.
 
-- `app` - It is a folder link to the location of your *Omniverse Kit* based app.
-- `exts` - It is a folder where you can add new extensions. It was automatically added to extension search path. (Extension Manager -> Gear Icon -> Extension Search Path).
+## Features
 
-Open this folder using Visual Studio Code. It will suggest you to install few extensions that will make python experience better.
+- **Terrain Generation**: The extension can generate terrain based on specified parameters such as size, roughness, and terrain type.
+- **Forest Rendering**: Users can generate forests with different types of trees (e.g., birch, spruce, pine) and adjust parameters like density and age range.
+- **HDR Environment**: The extension supports the addition and removal of HDR (High Dynamic Range) environment textures for realistic lighting.
+- **Rocks Generation**: Rocks can be generated on the terrain with adjustable rockiness parameters.
+- **Vegitation Generation**: Other types of vegetation can also be generated alongside trees, with customizable density.
+- **Collision Detection**: Terrain collision properties are automatically configured for physics simulation.
+- **User Interface**: The extension provides a user-friendly UI for adjusting parameters and triggering actions.
 
-Look for "company.hello.world" extension in extension manager and enable it. Try applying changes to any python files, it will hot-reload and you can observe results immediately.
+## Installation
 
-Alternatively, you can launch your app from console with this folder added to search path and your extension enabled, e.g.:
+1. Clone the repository to your local machine.
+2. Open the NVIDIA Isaac Sim environment.
+3. Copy the extension files into the appropriate directory within the Isaac Sim environment.
+4. Enable the extension from the Isaac Sim environment's menu.
 
-```
-> app\omni.code.bat --ext-folder exts --enable company.hello.world
-```
+## Usage
 
-# App Link Setup
+1. Open the extension from the menu in the Isaac Sim environment.
+2. Adjust the parameters in the UI for terrain generation, forest rendering, HDR environment, rocks generation, and other options.
+3. Click the corresponding buttons to trigger actions such as generating terrain, forests, rocks, or HDR environments.
+4. Interact with the simulation environment and observe the generated terrain, forests, and other elements.
+5. Save your simulation scenario and project as needed.
 
-If `app` folder link doesn't exist or broken it can be created again. For better developer experience it is recommended to create a folder link named `app` to the *Omniverse Kit* app installed from *Omniverse Launcher*. Convenience script to use is included.
+## Requirements
 
-Run:
+- NVIDIA Isaac Sim
+- Python (for USD scripting)
 
-```
-> link_app.bat
-```
+## Credits
 
-If successful you should see `app` folder link in the root of this repo.
+This project was developed by [Your Name] as part of [Project Name]. Special thanks to [Contributor Name] for their contributions.
 
-If multiple Omniverse apps is installed script will select recommended one. Or you can explicitly pass an app:
+## License
 
-```
-> link_app.bat --app create
-```
-
-You can also just pass a path to create link to:
-
-```
-> link_app.bat --path "C:/Users/bob/AppData/Local/ov/pkg/create-2021.3.4"
-```
-
-
-# Sharing Your Extensions
-
-This folder is ready to be pushed to any git repository. Once pushed direct link to a git repository can be added to *Omniverse Kit* extension search paths.
-
-Link might look like this: `git://github.com/[user]/[your_repo].git?branch=main&dir=exts`
-
-Notice `exts` is repo subfolder with extensions. More information can be found in "Git URL as Extension Search Paths" section of developers manual.
-
-To add a link to your *Omniverse Kit* based app go into: Extension Manager -> Gear Icon -> Extension Search Path
-
+This project is licensed under the [License Name] License - see the LICENSE file for details.
